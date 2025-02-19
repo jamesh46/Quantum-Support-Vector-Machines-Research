@@ -54,7 +54,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 ## Table of Contents
 - [Overview](#overview)
-- [Script Descriptions](#script-descriptions)
+- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
   - [1. Main Pipeline (`main.py`)](#1-main-pipeline-mainpy)
@@ -86,8 +86,25 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 ---
 
+## Project Structure
 
-## Script Descriptions
+```
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── classical_accuracies.py
+│   ├── depth_optimisation.py
+│   ├── gates_key.py
+│   ├── dlp_utils.py
+│   ├── classical_utils.py
+│   ├── quantum_utils.py
+│   ├── plot_utils.py
+│   └── results_utils.py
+└── (Output folders such as "results/" or "depth_optimisation/" get created automatically)
+```
+
 - **`dlp_utils.py`**: Utilities for discrete log dataset generation.  
 
 - **`classical_utils.py`**: Functions for training and evaluating classical SVMs.  
