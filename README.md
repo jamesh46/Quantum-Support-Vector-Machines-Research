@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The project explores **Generalised Quantum Support Vector Machines (QSVMs)**—an innovative machine learning approach that leverages the high-dimensionality of quantum states to tackle **complex classification tasks**. Specifically, we focus on cryptographically motivated data derived from the **Discrete Logarithm Problem (DLP)**, illustrating how quantum-enhanced kernels can capture intricate structure that classical methods often fail to detect.
+The project explores **Generalised Quantum Support Vector Machines (QSVMs)** an adaptation of the traditional machine learning approach that leverages the high-dimensionality of quantum states that aims to tackle **complex classification tasks**. Specifically, we focus on cryptographically motivated data derived from the **Discrete Logarithm Problem (DLP)**, illustrating how quantum-enhanced kernels can capture intricate structure that classical methods often fail to detect.
 
 > **Read the Full Report**  
 > For an in-depth exploration of the theoretical background, experimental methods, and results, please see the [Full Project Report](./path/to/project_report.pdf) (PDF).
