@@ -26,9 +26,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 - We construct a binary classification task using a prime modulus $p$, generator $g$, and exponentiation
 
-  $$
-  x = g^y \bmod p.
-  $$
+  $x = g^y \bmod p.$
 
 - Labels reflect different residue class properties, creating a non-trivial and highly non-linear decision boundary—an ideal stress test for comparing quantum and classical kernels.
 
