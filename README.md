@@ -132,7 +132,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
    ```bash
    git clone https://github.com/james46/Quantum-Support-Vector-Machines-Research.git
-   cd YourRepoName
+   cd Quantum-Support-Vector-Machines-Research
 
 2. Create and activate a virtual environment (recommended):
 
