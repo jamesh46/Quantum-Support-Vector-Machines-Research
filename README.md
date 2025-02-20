@@ -49,7 +49,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 ### 4. Scalability and Future Directions
 
 - While this project focuses on DLP-based data as a proof of concept, QSVMs hold promise for a variety of **complex classification tasks** ranging from genomic analysis to secure communications.
-- Ongoing work involves **optimizing circuit designs** to mitigate quantum noise and enhance real-device performance, essential steps for scaling to genuine quantum hardware.
+- Ongoing work involves **optimising circuit designs** to mitigate quantum noise and enhance real-device performance, essential steps for scaling to genuine quantum hardware.
 
 
 ## Table of Contents
@@ -59,7 +59,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 - [Usage](#usage)
   - [1. Main Pipeline (`main.py`)](#1-main-pipeline-mainpy)
   - [2. Classical Accuracies Comparison (`classical_accuraciespy`)](#2-classical-accuracies-comparison-classical_accuraciespy)
-  - [3. Depth Optimization (`depth_optimisationpy`)](#3-depth-optimization-depth_optimisationpy)
+  - [3. Depth Optimisation (`depth_optimisationpy`)](#3-depth-optimisation-depth_optimisationpy)
   - [4. Qiskit Circuit Key Illustration (`gates_keypy`)](#4-qiskit-circuit-key-illustration-gates_keypy)
 
 
@@ -119,7 +119,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 - **`classical_accuracies.py`**: Repeated classical SVM experiments over a set of primes.  
 
-- **`depth_optimisation.py`**: Optimizes the quantum feature map depth for certain primes.
+- **`depth_optimisation.py`**: Optimises the quantum feature map depth for certain primes.
 
 - **`gates_key.py`**: Outputs a small reference figure of various quantum gates.
 
