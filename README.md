@@ -149,6 +149,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 ## Usage
 1. **Main Pipeline (`main.py`)**
+   
    Generates a DLP-based dataset, projects onto a unit circle, trains the classical and Quantum SVMs, and plots the results (Note that this script simulates large quantum systems in Qiskit and therefore will have a very long runtime on most local machines):
 
    ```bash
@@ -158,6 +159,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 Outputs go to a `results/` directory containing: datasets, models, kernels, plots, circuits.
 
 2. **Classical Accuracies Comparison (`classical_accuracies.py`)**
+   
    Evaluates linear, RBF, and polynomial SVM accuracies across multiple primes with 100 runs:
 
    ```bash
@@ -166,6 +168,7 @@ Outputs go to a `results/` directory containing: datasets, models, kernels, plot
 Outputs include `svm_evaluation_results.csv` and `svm_accuracies_across_primes.csv`.
 
 3. **Depth Optimisation (`depth_optimisation.py`)**
+   
    Vary quantum feature map depth for chosen primes and halt when test accuracy declines consecutively:
 
    ```bash
