@@ -32,7 +32,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
   $x = g^y \bmod p.$
 
-- Labels reflect different residue class properties, creating a non-trivial and highly non-linear decision boundary—an ideal stress test for comparing quantum and classical kernels.
+- Labels reflect different residue class properties, creating a non-trivial and highly non-linear decision boundary, an ideal test for comparing quantum and classical kernels.
 
 ### 2. Quantum Feature Maps
 
