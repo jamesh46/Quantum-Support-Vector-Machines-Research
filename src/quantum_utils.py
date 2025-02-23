@@ -13,7 +13,7 @@ def compute_quantum_kernel_sequential(X_train, X_test, feature_map):
     K_test = kernel.evaluate(x_vec=X_test, y_vec=X_train)
     return K_train, K_test
 
-def train_quantum_svm_fixed(K_train, y_train, C=0.5):
+def train_quantum_svm_fixed(K_train, y_train, C=):
     clf = SVC(kernel='precomputed', C=C)
     with tqdm(total=1, desc="Training Quantum Kernel SVM", unit="model") as pbar:
         clf.fit(K_train, y_train)
