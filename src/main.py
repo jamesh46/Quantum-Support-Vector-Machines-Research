@@ -21,7 +21,7 @@ def main():
     test_size = 0.2
     feature_dim = 2
     depth = 5
-    C_val = 0.5
+    C_val =
 
     results_paths = setup_results_directory('results')
     df, g, s = generate_dataset(p, num_samples)
