@@ -7,7 +7,7 @@ The project explores **Generalised Quantum Support Vector Machines (QSVMs)** an 
 This repository contains all the necessary code to generate a dataset derived from the Discrete Logarithm Problem (DLP), build and train both classical and Quantum Support Vector Machines (QSVM), and perform some basic accuracy testing across each model for any inputted primes.
 
 > **Read the Full Report**  
-> For an in-depth exploration of the theoretical background, experimental methods, and results, please see the [Full Project Report](https://github.com/jamesh46/Quantum-Support-Vector-Machines-Research/blob/37545bc1ba300e4e036b13fb82110ac699f253d0/Generalised%20QSVM%20for%20Cryptographic%20Classification%20Report.pdf) (PDF).
+> For an in-depth exploration of the theoretical background, experimental methods, and results, please see the [Full Project Report](https://github.com/jamesh46/Quantum-Support-Vector-Machines-Research/blob/0a56d6fc8f84537d26b37520cc00b9dac30989c5/Generalised%20QSVMs%20for%20Cryptographic%20Classification%20Report.pdf) (PDF).
 
 
 ---
