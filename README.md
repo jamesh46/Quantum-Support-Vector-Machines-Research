@@ -4,6 +4,8 @@
 
 The project explores **Generalised Quantum Support Vector Machines (QSVMs)** an adaptation of the traditional machine learning approach that leverages the high-dimensionality of quantum states that aims to tackle **complex classification tasks**. Specifically, we focus on cryptographically motivated data derived from the **Discrete Logarithm Problem (DLP)**, illustrating how quantum-enhanced kernels can capture intricate structure that classical methods often fail to detect.
 
+This repository contains all the necessary code to generate a dataset derived from the Discrete Logarithm Problem (DLP), build and train both classical and Quantum Support Vector Machines (QSVM), and perform some basic accuracy testing across each model for any inputted primes.
+
 > **Read the Full Report**  
 > For an in-depth exploration of the theoretical background, experimental methods, and results, please see the [Full Project Report](./path/to/project_report.pdf) (PDF).
 
