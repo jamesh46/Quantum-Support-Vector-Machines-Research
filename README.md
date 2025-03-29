@@ -14,7 +14,7 @@ This repository contains all the necessary code to generate a dataset derived fr
 
 ## Why Quantum SVMs?
 
-Classical Support Vector Machines are a staple of modern data science, offering reliable performance and well-understood mathematical properties. However, real-world applications like **cryptography**, **genomics**, and **advanced financial modeling** generate datasets with **deeply non-linear** or **highly entangled** relationships. Classical SVM kernels (e.g., polynomial or RBF) can struggle to capture these subtle dependencies.
+Classical Support Vector Machines are a staple of modern data science, offering reliable performance and well understood mathematical properties. However, real-world applications like **cryptography**, **genomics**, and **advanced financial modeling** generate datasets with **deeply non-linear** or **highly entangled** relationships. Classical SVM kernels (e.g., polynomial or RBF) can struggle to capture these subtle dependencies.
 
 By contrast, **Quantum SVMs** encode data into multi-qubit states, taking advantage of:
 
@@ -46,7 +46,7 @@ These features enable QSVMs to learn decision boundaries in a feature space that
 
 - We implement three classical SVM kernels (linear, polynomial, and RBF) for baseline comparisons.
 - Statistical evaluations show the QSVM consistently achieves higher accuracy on the cryptographic dataset, demonstrating **quantum advantage** at the 5% confidence level.
-- Deeper circuits can capture richer structure but risk longer simulation times and potential overfitting—underscoring the practical trade-off in **NISQ-era** hardware.
+- Deeper circuits can capture richer structure but risk longer simulation times and potential overfitting, underscoring the practical trade off in **NISQ-era** hardware.
 
 ### 4. Scalability and Future Directions
 
